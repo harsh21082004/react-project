@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+a {
+  display: block;
+}
+ul {
+  margin: 0;
+  margin-inline: unset !important;
+  padding: 0;
+  list-style: none;
+}
+.ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #6b6b6b;
+  border-radius: 10px;
+}
+input {
+  background-color: transparent;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+.green_A400_teal_500_border {
+  border-image: linear-gradient(270deg, #38ef7d, #11998e) 1;
+}
+.green_A100_bf_light_green_100_bf_border {
+  border-image: linear-gradient(270deg, #bff4bebf, #d6f6d5bf) 1;
+}
+.cyan_900_cyan_300_border {
+  border-image: linear-gradient(90deg, #055555, #40e0d0) 1;
+}
+.light_green_A700_yellow_500_border {
+  border-image: linear-gradient(222deg, #65c511, #ffee32) 1;
+}
+.deep_orange_900_green_A200_border {
+  border-image: linear-gradient(222deg, #b93e0a, #82ff9d) 1;
+}
+.light_blue_A700_green_400_border {
+  border-image: linear-gradient(228deg, #007cef, #53ff64) 1;
+}
+.alice-carousel__dots-item {
+  cursor: pointer;
+}
